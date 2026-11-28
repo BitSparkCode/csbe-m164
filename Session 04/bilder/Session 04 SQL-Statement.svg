@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="315" viewBox="0 0 900 315" role="img" aria-labelledby="title desc">
+<title id="title">Aufbau eines SQL-Statements</title>
+<desc id="desc">SELECT und UPDATE zerlegt in Klauseln. Schlüsselwörter sind fett, Bezeichner und Literale stehen darunter; das Semikolon beendet die Anweisung.</desc>
+<rect x="0" y="0" width="900" height="315" rx="12" fill="#f4f4f4" stroke="none"/>
+<g font-family="Liberation Sans, Arial, sans-serif" fill="#19171a">
+<text x="25" y="32" font-size="23" font-weight="bold">SELECT: liest eine Zeile</text>
+<rect x="25" y="43" width="186" height="60" rx="4" fill="#fff" stroke="#858286"/>
+<text x="35" y="67" font-size="19" font-family="Liberation Mono, monospace" font-weight="bold">SELECT</text>
+<text x="35" y="91" font-size="19" font-family="Liberation Mono, monospace">nr, status</text>
+<text x="33" y="127" font-size="17">Spalten (Bezeichner)</text>
+<rect x="223" y="43" width="226" height="60" rx="4" fill="#fff" stroke="#858286"/>
+<text x="233" y="67" font-size="19" font-family="Liberation Mono, monospace" font-weight="bold">FROM</text>
+<text x="233" y="91" font-size="19" font-family="Liberation Mono, monospace">servicetermine</text>
+<text x="231" y="127" font-size="17">Tabelle (Bezeichner)</text>
+<rect x="461" y="43" width="329" height="60" rx="4" fill="#fff" stroke="#858286"/>
+<text x="471" y="67" font-size="19" font-family="Liberation Mono, monospace" font-weight="bold">WHERE</text>
+<text x="471" y="91" font-size="19" font-family="Liberation Mono, monospace">nr = 7</text>
+<text x="469" y="127" font-size="17">Bedingung, 7 = Literal</text>
+<rect x="802" y="43" width="73" height="60" rx="6" fill="#fff0af" stroke="#858286"/>
+<text x="838" y="81" font-size="27" font-family="Liberation Mono, monospace" text-anchor="middle">;</text>
+<text x="838" y="127" font-size="17" text-anchor="middle">Ende</text>
+<text x="25" y="172" font-size="23" font-weight="bold">UPDATE: ändert eine Zeile</text>
+<rect x="25" y="183" width="224" height="60" rx="4" fill="#fff" stroke="#858286"/>
+<text x="35" y="207" font-size="19" font-family="Liberation Mono, monospace" font-weight="bold">UPDATE</text>
+<text x="35" y="231" font-size="19" font-family="Liberation Mono, monospace">servicetermine</text>
+<text x="33" y="267" font-size="17">Tabelle (Bezeichner)</text>
+<rect x="261" y="183" width="321" height="60" rx="4" fill="#fff" stroke="#858286"/>
+<text x="271" y="207" font-size="19" font-family="Liberation Mono, monospace" font-weight="bold">SET</text>
+<text x="271" y="231" font-size="19" font-family="Liberation Mono, monospace">status = 'erledigt'</text>
+<text x="269" y="267" font-size="17">Spalte und Textliteral</text>
+<rect x="594" y="183" width="196" height="60" rx="4" fill="#fff" stroke="#858286"/>
+<text x="604" y="207" font-size="19" font-family="Liberation Mono, monospace" font-weight="bold">WHERE</text>
+<text x="604" y="231" font-size="19" font-family="Liberation Mono, monospace">nr = 7</text>
+<text x="602" y="267" font-size="17">Bedingung</text>
+<rect x="802" y="183" width="73" height="60" rx="6" fill="#fff0af" stroke="#858286"/>
+<text x="838" y="221" font-size="27" font-family="Liberation Mono, monospace" text-anchor="middle">;</text>
+<text x="838" y="267" font-size="17" text-anchor="middle">Ende</text>
+<text x="25" y="298" font-size="19">Jeder weisse Kasten bildet eine Klausel: Schlüsselwort und zugehöriger Ausdruck.</text>
+</g>
+</svg>

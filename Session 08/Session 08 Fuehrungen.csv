@@ -1,0 +1,4 @@
+fuehrung_id;person_id;status;betrag
+901;201; Bezahlt ;12,00
+901;202;offen;0,00
+999;202;bezahlt;15,00

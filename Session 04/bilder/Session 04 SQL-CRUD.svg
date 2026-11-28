@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="342" viewBox="0 0 900 342" role="img" aria-labelledby="title desc">
+<title id="title">CRUD in der Reservationsliste</title>
+<desc id="desc">Gelb markiert eine zu lesende, eine zu ändernde und eine neu anzulegende Zeile. Die zu löschende Zeile ist rot durchgestrichen.</desc>
+<rect x="0" y="0" width="900" height="342" rx="12" fill="#f4f4f4" stroke="none"/>
+<g font-family="Liberation Sans, Arial, sans-serif" fill="#19171a">
+<rect x="25" y="19" width="850" height="191" rx="0" fill="#fff" stroke="#858286"/>
+<rect x="25" y="19" width="850" height="38" rx="0" fill="#e3e3e3" stroke="none"/>
+<rect x="26" y="57" width="848" height="38" rx="0" fill="#fff0af" stroke="none"/>
+<rect x="536" y="95" width="80" height="38" rx="0" fill="#fff0af" stroke="none"/>
+<rect x="26" y="171" width="848" height="38" rx="0" fill="#fff0af" stroke="none"/>
+<path d="M183 19V210M327 19V210M535 19V210M617 19V210M25 57H875M25 95H875M25 133H875M25 171H875" fill="none" stroke="#858286"/>
+<text x="36" y="46" font-size="21" font-weight="bold">Reservation</text>
+<text x="194" y="46" font-size="21" font-weight="bold">Person</text>
+<text x="338" y="46" font-size="21" font-weight="bold">Kennzeichen</text>
+<text x="546" y="46" font-size="21" font-weight="bold">Platz</text>
+<text x="628" y="46" font-size="21" font-weight="bold">Adresse / Preis</text>
+<text x="36" y="83" font-size="20">101</text>
+<text x="194" y="83" font-size="20">1 Maier</text>
+<text x="338" y="83" font-size="20">BE12345, BE45678</text>
+<text x="546" y="83" font-size="20">A01</text>
+<text x="628" y="83" font-size="20">Ibisweg 1 / 8.50</text>
+<text x="36" y="121" font-size="20">102</text>
+<text x="194" y="121" font-size="20">1 Maier</text>
+<text x="338" y="121" font-size="20">BE12345, BE45678</text>
+<text x="546" y="121" font-size="20">A02</text>
+<text x="628" y="121" font-size="20">Ibisweg 1 / 8.50</text>
+<text x="36" y="159" font-size="20">103</text>
+<text x="194" y="159" font-size="20">2 Huber</text>
+<text x="338" y="159" font-size="20">BE98765</text>
+<text x="546" y="159" font-size="20">B01</text>
+<text x="628" y="159" font-size="20">Parkstrasse 1 / 11.00</text>
+<text x="36" y="197" font-size="20">104</text>
+<text x="194" y="197" font-size="20">2 Huber</text>
+<text x="338" y="197" font-size="20">BE98765</text>
+<text x="546" y="197" font-size="20">B02</text>
+<text x="628" y="197" font-size="20">Parkstrasse 1 / 11.00</text>
+<path d="M34 148H849" fill="none" stroke="#a52227" stroke-width="2.5" stroke-dasharray="9 5"/>
+<rect x="25" y="230" width="202" height="91" rx="6" fill="#fff" stroke="#858286"/>
+<text x="126" y="258" font-size="23" text-anchor="middle" font-weight="bold">Create</text>
+<text x="126" y="283" font-size="19" text-anchor="middle" font-family="Liberation Mono, monospace">INSERT</text>
+<text x="126" y="306" font-size="16" text-anchor="middle">104 hinzufügen</text>
+<rect x="241" y="230" width="202" height="91" rx="6" fill="#fff" stroke="#858286"/>
+<text x="342" y="258" font-size="23" text-anchor="middle" font-weight="bold">Read</text>
+<text x="342" y="283" font-size="19" text-anchor="middle" font-family="Liberation Mono, monospace">SELECT</text>
+<text x="342" y="306" font-size="16" text-anchor="middle">101 lesen</text>
+<rect x="457" y="230" width="202" height="91" rx="6" fill="#fff" stroke="#858286"/>
+<text x="558" y="258" font-size="23" text-anchor="middle" font-weight="bold">Update</text>
+<text x="558" y="283" font-size="19" text-anchor="middle" font-family="Liberation Mono, monospace">UPDATE</text>
+<text x="558" y="306" font-size="16" text-anchor="middle">Platz von 102 ändern</text>
+<rect x="673" y="230" width="202" height="91" rx="6" fill="#fff" stroke="#858286"/>
+<text x="774" y="258" font-size="23" text-anchor="middle" font-weight="bold">Delete</text>
+<text x="774" y="283" font-size="19" text-anchor="middle" font-family="Liberation Mono, monospace">DELETE</text>
+<text x="774" y="306" font-size="16" text-anchor="middle">103 entfernen</text>
+</g>
+</svg>

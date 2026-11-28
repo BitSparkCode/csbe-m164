@@ -1,0 +1,6 @@
+[
+  {"veranstaltungs_id": 104, "teilnehmenden_id": 207, "erfasst_am": "2026-11-14", "status": " bezahlt ", "betrag": "25.00"},
+  {"veranstaltungs_id": 105, "teilnehmenden_id": 205, "erfasst_am": "2026-11-14", "status": "offen", "betrag": "0.00"},
+  {"veranstaltungs_id": 105, "teilnehmenden_id": 999, "erfasst_am": "2026-11-14", "status": "offen", "betrag": "0.00"},
+  {"veranstaltungs_id": 103, "teilnehmenden_id": 207, "erfasst_am": "2026-11-15", "status": "bezahlt", "betrag": "-30.00"}
+]

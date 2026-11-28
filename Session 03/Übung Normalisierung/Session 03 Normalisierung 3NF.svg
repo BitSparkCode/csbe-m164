@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1340" height="670" viewBox="0 0 1340 670" role="img" aria-labelledby="title desc">
+<title id="title">3NF: Personen, Parkplätze und Standorte trennen</title>
+<desc id="desc">Personendaten und Standortdaten stehen nur noch in ihren eigenen Tabellen. Rote Pfeile führen von FK zu PK.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#a52227"/></marker></defs>
+<rect x="0" y="0" width="1340" height="670" fill="#f4f4f4" rx="12"/>
+<g font-family="Arial, sans-serif" fill="#19171a">
+<rect x="32" y="30" width="28" height="5" fill="#a52227"/>
+<text x="32" y="67" font-size="29" font-weight="bold">3NF: Personen, Parkplätze und Standorte trennen</text>
+<text x="32" y="96" font-size="17">Personendaten und Standortdaten stehen nur noch in ihren eigenen Tabellen. Rote Pfeile führen von FK zu PK.</text>
+<text x="32" y="133" font-size="20" font-weight="bold">personen</text>
+<rect x="32" y="145" width="460" height="101" fill="#fff"/>
+<rect x="32" y="145" width="460" height="35" fill="#e3e3e3"/>
+<rect x="32" y="145" width="146" height="35" fill="#ffdf65"/>
+<text x="40" y="168" font-size="15" font-weight="bold">person_nr (PK)</text>
+<text x="40" y="202" font-size="15">1</text>
+<text x="40" y="235" font-size="15">2</text>
+<rect x="178" y="180" width="157" height="66" fill="#fff0af"/>
+<text x="186" y="168" font-size="15" font-weight="bold">personenname</text>
+<text x="186" y="202" font-size="15">Maier</text>
+<text x="186" y="235" font-size="15">Huber</text>
+<path d="M178 145v101" stroke="#858286"/>
+<rect x="335" y="180" width="157" height="66" fill="#fff0af"/>
+<text x="343" y="168" font-size="15" font-weight="bold">telefon</text>
+<text x="343" y="202" font-size="15">031 555 01 01</text>
+<text x="343" y="235" font-size="15">031 555 02 02</text>
+<path d="M335 145v101" stroke="#858286"/>
+<path d="M32 180h460" stroke="#858286"/>
+<path d="M32 213h460" stroke="#858286"/>
+<rect x="32" y="145" width="460" height="101" fill="none" stroke="#858286"/>
+<text x="805" y="133" font-size="20" font-weight="bold">standorte</text>
+<rect x="805" y="145" width="503" height="101" fill="#fff"/>
+<rect x="805" y="145" width="503" height="35" fill="#e3e3e3"/>
+<rect x="805" y="145" width="146" height="35" fill="#ffdf65"/>
+<text x="813" y="168" font-size="15" font-weight="bold">standort_nr (PK)</text>
+<text x="813" y="202" font-size="15">10</text>
+<text x="813" y="235" font-size="15">20</text>
+<rect x="951" y="180" width="108" height="66" fill="#fff0af"/>
+<text x="959" y="168" font-size="15" font-weight="bold">standort</text>
+<text x="959" y="202" font-size="15">Ibis</text>
+<text x="959" y="235" font-size="15">Stadtpark</text>
+<path d="M951 145v101" stroke="#858286"/>
+<rect x="1059" y="180" width="155" height="66" fill="#fff0af"/>
+<text x="1067" y="168" font-size="15" font-weight="bold">adresse</text>
+<text x="1067" y="202" font-size="15">Ibisweg 1, Bern</text>
+<text x="1067" y="235" font-size="15">Parkstrasse 1, Bern</text>
+<path d="M1059 145v101" stroke="#858286"/>
+<rect x="1214" y="180" width="94" height="66" fill="#fff0af"/>
+<text x="1222" y="168" font-size="15" font-weight="bold">tagespreis</text>
+<text x="1222" y="202" font-size="15">8.50</text>
+<text x="1222" y="235" font-size="15">11.00</text>
+<path d="M1214 145v101" stroke="#858286"/>
+<path d="M805 180h503" stroke="#858286"/>
+<path d="M805 213h503" stroke="#858286"/>
+<rect x="805" y="145" width="503" height="101" fill="none" stroke="#858286"/>
+<text x="32" y="289" font-size="20" font-weight="bold">fahrzeuge</text>
+<rect x="32" y="301" width="299" height="134" fill="#fff"/>
+<rect x="32" y="301" width="299" height="35" fill="#e3e3e3"/>
+<rect x="32" y="301" width="146" height="35" fill="#ffdf65"/>
+<text x="40" y="324" font-size="15" font-weight="bold">kennzeichen (PK)</text>
+<text x="40" y="358" font-size="15">BE12345</text>
+<text x="40" y="391" font-size="15">BE45678</text>
+<text x="40" y="424" font-size="15">BE98765</text>
+<rect x="178" y="301" width="153" height="35" fill="#fae7e7"/>
+<text x="186" y="324" font-size="15" font-weight="bold">person_nr (FK)</text>
+<text x="186" y="358" font-size="15">1</text>
+<text x="186" y="391" font-size="15">1</text>
+<text x="186" y="424" font-size="15">2</text>
+<path d="M178 301v134" stroke="#858286"/>
+<path d="M32 336h299" stroke="#858286"/>
+<path d="M32 369h299" stroke="#858286"/>
+<path d="M32 402h299" stroke="#858286"/>
+<rect x="32" y="301" width="299" height="134" fill="none" stroke="#858286"/>
+<text x="1009" y="289" font-size="20" font-weight="bold">parkplaetze</text>
+<rect x="1009" y="301" width="299" height="134" fill="#fff"/>
+<rect x="1009" y="301" width="299" height="35" fill="#e3e3e3"/>
+<rect x="1009" y="301" width="152" height="35" fill="#ffdf65"/>
+<text x="1017" y="324" font-size="15" font-weight="bold">parkplatz_nr (PK)</text>
+<text x="1017" y="358" font-size="15">A01</text>
+<text x="1017" y="391" font-size="15">A02</text>
+<text x="1017" y="424" font-size="15">B01</text>
+<rect x="1161" y="301" width="147" height="35" fill="#fae7e7"/>
+<text x="1169" y="324" font-size="15" font-weight="bold">standort_nr (FK)</text>
+<text x="1169" y="358" font-size="15">10</text>
+<text x="1169" y="391" font-size="15">10</text>
+<text x="1169" y="424" font-size="15">20</text>
+<path d="M1161 301v134" stroke="#858286"/>
+<path d="M1009 336h299" stroke="#858286"/>
+<path d="M1009 369h299" stroke="#858286"/>
+<path d="M1009 402h299" stroke="#858286"/>
+<rect x="1009" y="301" width="299" height="134" fill="none" stroke="#858286"/>
+<text x="405" y="420" font-size="20" font-weight="bold">reservationen</text>
+<rect x="405" y="432" width="543" height="134" fill="#fff"/>
+<rect x="405" y="432" width="543" height="35" fill="#e3e3e3"/>
+<rect x="405" y="432" width="155" height="35" fill="#ffdf65"/>
+<text x="413" y="455" font-size="15" font-weight="bold">reservationsnr (PK)</text>
+<text x="413" y="489" font-size="15">101</text>
+<text x="413" y="522" font-size="15">102</text>
+<text x="413" y="555" font-size="15">103</text>
+<text x="568" y="455" font-size="15" font-weight="bold">datum</text>
+<text x="568" y="489" font-size="15">2027-01-14</text>
+<text x="568" y="522" font-size="15">2027-01-15</text>
+<text x="568" y="555" font-size="15">2027-01-14</text>
+<path d="M560 432v134" stroke="#858286"/>
+<rect x="680" y="432" width="126" height="35" fill="#fae7e7"/>
+<text x="688" y="455" font-size="15" font-weight="bold">person_nr (FK)</text>
+<text x="688" y="489" font-size="15">1</text>
+<text x="688" y="522" font-size="15">1</text>
+<text x="688" y="555" font-size="15">2</text>
+<path d="M680 432v134" stroke="#858286"/>
+<rect x="806" y="432" width="142" height="35" fill="#fae7e7"/>
+<text x="814" y="455" font-size="15" font-weight="bold">parkplatz_nr (FK)</text>
+<text x="814" y="489" font-size="15">A01</text>
+<text x="814" y="522" font-size="15">A02</text>
+<text x="814" y="555" font-size="15">B01</text>
+<path d="M806 432v134" stroke="#858286"/>
+<path d="M405 467h543" stroke="#858286"/>
+<path d="M405 500h543" stroke="#858286"/>
+<path d="M405 533h543" stroke="#858286"/>
+<rect x="405" y="432" width="543" height="134" fill="none" stroke="#858286"/>
+<g fill="none" stroke="#a52227" stroke-width="2" marker-end="url(#arrow)">
+<path d="M251 301V266H105V247"/>
+<path d="M1235 301V266H878V247"/>
+<path d="M740 432V392H380V452H18V162H31"/>
+<path d="M875 432V371H980V318H1010"/>
+</g>
+<rect x="32" y="568" width="1276" height="79" fill="#fff" rx="7"/>
+<text x="47" y="598" font-size="17" font-weight="bold">Regel</text>
+<text x="153" y="598" font-size="17">Keine transitiven Abhängigkeiten über Nichtschlüsselattribute.</text>
+<text x="47" y="626" font-size="17" font-weight="bold">Änderung</text>
+<text x="153" y="626" font-size="17">Name und Telefon hängen an der Personennummer; Adresse und Preis an der Standortnummer.</text>
+</g>
+</svg>

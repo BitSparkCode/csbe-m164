@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="285" viewBox="0 0 900 285" role="img" aria-labelledby="title desc">
+<title id="title">SQL-Zeitleiste</title>
+<desc id="desc">Vom relationalen Modell 1970 über SEQUEL und frühe SQL-Produkte bis zum Standard SQL:2023.</desc>
+<rect x="0" y="0" width="900" height="285" rx="12" fill="#f4f4f4" stroke="none"/>
+<g font-family="Liberation Sans, Arial, sans-serif" fill="#19171a">
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#a52227"/></marker></defs>
+<path d="M50 141H864" fill="none" stroke="#a52227" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M83 141V113" fill="none" stroke="#a52227" stroke-width="2.5"/>
+<circle cx="83" cy="141" r="7" fill="#fff0af" stroke="#a52227" stroke-width="2"/>
+<text x="83" y="47" font-size="22" text-anchor="middle" font-weight="bold">1970</text>
+<text x="83" y="72" font-size="18" text-anchor="middle">Codd: relationales</text>
+<text x="83" y="95" font-size="18" text-anchor="middle">Modell</text>
+<path d="M227 141V174" fill="none" stroke="#a52227" stroke-width="2.5"/>
+<circle cx="227" cy="141" r="7" fill="#fff0af" stroke="#a52227" stroke-width="2"/>
+<text x="227" y="197" font-size="22" text-anchor="middle" font-weight="bold">1974</text>
+<text x="227" y="222" font-size="18" text-anchor="middle">IBM System R:</text>
+<text x="227" y="245" font-size="18" text-anchor="middle">SEQUEL, später SQL</text>
+<path d="M371 141V113" fill="none" stroke="#a52227" stroke-width="2.5"/>
+<circle cx="371" cy="141" r="7" fill="#fff0af" stroke="#a52227" stroke-width="2"/>
+<text x="371" y="47" font-size="22" text-anchor="middle" font-weight="bold">1979</text>
+<text x="371" y="72" font-size="18" text-anchor="middle">Oracle: erstes</text>
+<text x="371" y="95" font-size="18" text-anchor="middle">kommerzielles SQL-DBMS</text>
+<path d="M515 141V174" fill="none" stroke="#a52227" stroke-width="2.5"/>
+<circle cx="515" cy="141" r="7" fill="#fff0af" stroke="#a52227" stroke-width="2"/>
+<text x="515" y="197" font-size="22" text-anchor="middle" font-weight="bold">1986 / 1987</text>
+<text x="515" y="222" font-size="18" text-anchor="middle">ANSI / ISO:</text>
+<text x="515" y="245" font-size="18" text-anchor="middle">erste Standards</text>
+<path d="M659 141V113" fill="none" stroke="#a52227" stroke-width="2.5"/>
+<circle cx="659" cy="141" r="7" fill="#fff0af" stroke="#a52227" stroke-width="2"/>
+<text x="659" y="47" font-size="22" text-anchor="middle" font-weight="bold">1992</text>
+<text x="659" y="72" font-size="18" text-anchor="middle">SQL-92</text>
+<path d="M803 141V174" fill="none" stroke="#a52227" stroke-width="2.5"/>
+<circle cx="803" cy="141" r="7" fill="#fff0af" stroke="#a52227" stroke-width="2"/>
+<text x="803" y="197" font-size="22" text-anchor="middle" font-weight="bold">1999 · 2003 · 2023</text>
+<text x="803" y="222" font-size="18" text-anchor="middle">Weitere</text>
+<text x="803" y="245" font-size="18" text-anchor="middle">Ausgaben</text>
+</g>
+</svg>

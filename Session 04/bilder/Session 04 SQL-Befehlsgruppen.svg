@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390" role="img" aria-labelledby="title desc">
+<title id="title">SQL-Befehlsgruppen</title>
+<desc id="desc">SQL verzweigt in fünf Gruppen für Struktur, Abfragen, Datenänderung, Rechte und Transaktionen.</desc>
+<rect x="0" y="0" width="900" height="390" rx="12" fill="#f4f4f4" stroke="none"/>
+<g font-family="Liberation Sans, Arial, sans-serif" fill="#19171a">
+<rect x="218" y="19" width="464" height="51" rx="6" fill="#fff0af" stroke="#858286"/>
+<text x="450" y="52" font-size="27" text-anchor="middle" font-weight="bold">SQL = Structured Query Language</text>
+<path d="M450 70V93M100 93H800M100 93V113M275 93V113M450 93V113M625 93V113M800 93V113" fill="none" stroke="#a52227" stroke-width="2.5"/>
+<rect x="18" y="113" width="164" height="251" rx="6" fill="#fff" stroke="#858286"/>
+<text x="100" y="151" font-size="28" text-anchor="middle" font-weight="bold">DDL</text>
+<text x="100" y="177" font-size="16" text-anchor="middle">Data Definition</text>
+<text x="100" y="209" font-size="19" text-anchor="middle" font-weight="bold">Struktur</text>
+<text x="100" y="241" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">CREATE DATABASE</text>
+<text x="100" y="260" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">CREATE TABLE</text>
+<text x="100" y="279" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">ALTER TABLE</text>
+<text x="100" y="298" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">RENAME TABLE</text>
+<text x="100" y="317" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">TRUNCATE TABLE</text>
+<text x="100" y="336" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">DROP TABLE</text>
+<rect x="193" y="113" width="164" height="251" rx="6" fill="#fff" stroke="#858286"/>
+<text x="275" y="151" font-size="28" text-anchor="middle" font-weight="bold">DQL</text>
+<text x="275" y="177" font-size="16" text-anchor="middle">Data Query</text>
+<text x="275" y="209" font-size="19" text-anchor="middle" font-weight="bold">Abfragen</text>
+<text x="275" y="241" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">SELECT</text>
+<rect x="368" y="113" width="164" height="251" rx="6" fill="#fff" stroke="#858286"/>
+<text x="450" y="151" font-size="28" text-anchor="middle" font-weight="bold">DML</text>
+<text x="450" y="177" font-size="16" text-anchor="middle">Data Manipulation</text>
+<text x="450" y="209" font-size="19" text-anchor="middle" font-weight="bold">Daten ändern</text>
+<text x="450" y="241" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">INSERT</text>
+<text x="450" y="260" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">UPDATE</text>
+<text x="450" y="279" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">DELETE</text>
+<rect x="543" y="113" width="164" height="251" rx="6" fill="#fff" stroke="#858286"/>
+<text x="625" y="151" font-size="28" text-anchor="middle" font-weight="bold">DCL</text>
+<text x="625" y="177" font-size="16" text-anchor="middle">Data Control</text>
+<text x="625" y="209" font-size="19" text-anchor="middle" font-weight="bold">Rechte</text>
+<text x="625" y="241" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">GRANT</text>
+<text x="625" y="260" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">REVOKE</text>
+<rect x="718" y="113" width="164" height="251" rx="6" fill="#fff" stroke="#858286"/>
+<text x="800" y="151" font-size="28" text-anchor="middle" font-weight="bold">TCL</text>
+<text x="800" y="177" font-size="16" text-anchor="middle">Transaction Control</text>
+<text x="800" y="209" font-size="19" text-anchor="middle" font-weight="bold">Transaktionen</text>
+<text x="800" y="241" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">START</text>
+<text x="800" y="260" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">TRANSACTION</text>
+<text x="800" y="279" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">COMMIT</text>
+<text x="800" y="298" font-size="16" text-anchor="middle" font-family="Liberation Mono, monospace">ROLLBACK</text>
+</g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="199" viewBox="0 0 900 199" role="img" aria-labelledby="title desc">
+<title id="title">Benutzerin, App und Datenbank</title>
+<desc id="desc">Die Benutzerin bedient die App. Die App sendet SQL nach MySQL und erhält Ergebnisse.</desc>
+<rect x="0" y="0" width="900" height="199" rx="12" fill="#f4f4f4" stroke="none"/>
+<g font-family="Liberation Sans, Arial, sans-serif" fill="#19171a">
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#a52227"/></marker></defs>
+<rect x="22" y="51" width="192" height="99" rx="6" fill="#fff" stroke="#858286"/>
+<text x="118" y="88" font-size="28" text-anchor="middle" font-weight="bold">Benutzerin</text>
+<text x="118" y="123" font-size="17" text-anchor="middle">Formular und Anzeige</text>
+<rect x="354" y="51" width="192" height="99" rx="6" fill="#fff0af" stroke="#858286"/>
+<text x="450" y="88" font-size="28" text-anchor="middle" font-weight="bold">App</text>
+<text x="450" y="123" font-size="17" text-anchor="middle">Verarbeitet Eingaben</text>
+<rect x="686" y="51" width="192" height="99" rx="6" fill="#fff" stroke="#858286"/>
+<text x="782" y="88" font-size="28" text-anchor="middle" font-weight="bold">Datenbank</text>
+<text x="782" y="123" font-size="17" text-anchor="middle">MySQL-Server</text>
+<path d="M226 80H342" fill="none" stroke="#a52227" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M342 119H226" fill="none" stroke="#a52227" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="284" y="69" font-size="21" text-anchor="middle">Eingabe</text>
+<text x="284" y="146" font-size="21" text-anchor="middle">Anzeige</text>
+<path d="M558 80H674" fill="none" stroke="#a52227" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M674 119H558" fill="none" stroke="#a52227" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="616" y="69" font-size="21" text-anchor="middle">SQL</text>
+<text x="616" y="146" font-size="21" text-anchor="middle">Ergebnis</text>
+</g>
+</svg>

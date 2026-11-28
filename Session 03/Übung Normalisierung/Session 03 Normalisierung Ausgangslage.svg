@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="727" height="293" viewBox="0 0 727 293" role="img" aria-labelledby="title desc">
+<title id="title">reservationsliste</title>
+<desc id="desc">Nicht normalisierte Reservationsliste mit drei Reservationen. Gelb markiert wiederholte Personen-, Fahrzeug- und Standortangaben.</desc>
+<rect width="727" height="293" fill="#f4f4f4"/>
+<g transform="translate(-22 -127)" font-family="Arial, sans-serif" fill="#19171a">
+<rect x="32" y="137" width="700" height="271" fill="#fff"/>
+<path d="M32 137H732V175H32Z" fill="#e3e3e3"/>
+<path d="M141 175H386V331H141ZM528 175H732V331H528ZM386 208H528V242H386ZM386 286H528V320H386Z" fill="#fff0af"/>
+<path d="M32 137H732V408H32ZM32 175H732M32 253H732M32 331H732M141 137V408M268 137V408M386 137V408M528 137V408" fill="none" stroke="#858286"/>
+<g font-size="15" font-weight="bold">
+<text x="43" y="161">Reservation</text><text x="152" y="161">Person</text><text x="279" y="161">Kennzeichen</text><text x="397" y="161">Platz / Standort</text><text x="539" y="161">Adresse / Tagespreis</text>
+</g>
+<g font-size="15"><text x="43" y="203">101</text><text x="43" y="225">2027-01-14</text><text x="152" y="203">1 Maier</text><text x="152" y="225">031 555 01 01</text><text x="279" y="203">BE12345,</text><text x="279" y="225">BE45678</text><text x="397" y="203">A01</text><text x="397" y="225">10 Ibis</text><text x="539" y="203">Ibisweg 1, Bern</text><text x="539" y="225">8.50</text></g>
+<g font-size="15"><text x="43" y="281">102</text><text x="43" y="303">2027-01-15</text><text x="152" y="281">1 Maier</text><text x="152" y="303">031 555 01 01</text><text x="279" y="281">BE12345,</text><text x="279" y="303">BE45678</text><text x="397" y="281">A02</text><text x="397" y="303">10 Ibis</text><text x="539" y="281">Ibisweg 1, Bern</text><text x="539" y="303">8.50</text></g>
+<g font-size="15"><text x="43" y="359">103</text><text x="43" y="381">2027-01-14</text><text x="152" y="359">2 Huber</text><text x="152" y="381">031 555 02 02</text><text x="279" y="359">BE98765</text><text x="397" y="359">B01</text><text x="397" y="381">20 Stadtpark</text><text x="539" y="359">Parkstrasse 1, Bern</text><text x="539" y="381">11.00</text></g>
+</g>
+</svg>

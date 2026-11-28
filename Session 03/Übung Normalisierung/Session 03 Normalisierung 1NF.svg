@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1340" height="466" viewBox="0 0 1340 466" role="img" aria-labelledby="title desc">
+<title id="title">1NF: Ein Kennzeichen pro Feld</title>
+<desc id="desc">Die Kennzeichenliste wird zu fünf Zeilen. In dieser Tabelle ist noch kein Fremdschlüssel definiert.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#a52227"/></marker></defs>
+<rect x="0" y="0" width="1340" height="466" fill="#f4f4f4" rx="12"/>
+<g font-family="Arial, sans-serif" fill="#19171a">
+<rect x="32" y="30" width="28" height="5" fill="#a52227"/>
+<text x="32" y="67" font-size="29" font-weight="bold">1NF: Ein Kennzeichen pro Feld</text>
+<text x="32" y="96" font-size="17">Die Kennzeichenliste wird zu fünf Zeilen. In dieser Tabelle ist noch kein Fremdschlüssel definiert.</text>
+<text x="32" y="133" font-size="20" font-weight="bold">reservationsliste_1nf</text>
+<rect x="32" y="145" width="1209" height="200" fill="#fff"/>
+<rect x="32" y="145" width="1209" height="35" fill="#e3e3e3"/>
+<rect x="32" y="145" width="151" height="35" fill="#ffdf65"/>
+<text x="40" y="168" font-size="13" font-weight="bold">reservationsnr (PK)</text>
+<text x="40" y="202" font-size="15">101</text>
+<text x="40" y="235" font-size="15">101</text>
+<text x="40" y="268" font-size="15">102</text>
+<text x="40" y="301" font-size="15">102</text>
+<text x="40" y="334" font-size="15">103</text>
+<rect x="183" y="180" width="145" height="165" fill="#fff0af"/>
+<rect x="183" y="145" width="145" height="35" fill="#ffdf65"/>
+<text x="191" y="168" font-size="13" font-weight="bold">kennzeichen (PK)</text>
+<text x="191" y="202" font-size="15">BE12345</text>
+<text x="191" y="235" font-size="15">BE45678</text>
+<text x="191" y="268" font-size="15">BE12345</text>
+<text x="191" y="301" font-size="15">BE45678</text>
+<text x="191" y="334" font-size="15">BE98765</text>
+<path d="M183 145v200" stroke="#858286"/>
+<text x="336" y="168" font-size="13" font-weight="bold">datum</text>
+<text x="336" y="202" font-size="15">2027-01-14</text>
+<text x="336" y="235" font-size="15">2027-01-14</text>
+<text x="336" y="268" font-size="15">2027-01-15</text>
+<text x="336" y="301" font-size="15">2027-01-15</text>
+<text x="336" y="334" font-size="15">2027-01-14</text>
+<path d="M328 145v200" stroke="#858286"/>
+<text x="439" y="168" font-size="13" font-weight="bold">person_nr</text>
+<text x="439" y="202" font-size="15">1</text>
+<text x="439" y="235" font-size="15">1</text>
+<text x="439" y="268" font-size="15">1</text>
+<text x="439" y="301" font-size="15">1</text>
+<text x="439" y="334" font-size="15">2</text>
+<path d="M431 145v200" stroke="#858286"/>
+<text x="517" y="168" font-size="13" font-weight="bold">personenname</text>
+<text x="517" y="202" font-size="15">Maier</text>
+<text x="517" y="235" font-size="15">Maier</text>
+<text x="517" y="268" font-size="15">Maier</text>
+<text x="517" y="301" font-size="15">Maier</text>
+<text x="517" y="334" font-size="15">Huber</text>
+<path d="M509 145v200" stroke="#858286"/>
+<text x="631" y="168" font-size="13" font-weight="bold">telefon</text>
+<text x="631" y="202" font-size="15">031 555 01 01</text>
+<text x="631" y="235" font-size="15">031 555 01 01</text>
+<text x="631" y="268" font-size="15">031 555 01 01</text>
+<text x="631" y="301" font-size="15">031 555 01 01</text>
+<text x="631" y="334" font-size="15">031 555 02 02</text>
+<path d="M623 145v200" stroke="#858286"/>
+<text x="751" y="168" font-size="13" font-weight="bold">parkplatz_nr</text>
+<text x="751" y="202" font-size="15">A01</text>
+<text x="751" y="235" font-size="15">A01</text>
+<text x="751" y="268" font-size="15">A02</text>
+<text x="751" y="301" font-size="15">A02</text>
+<text x="751" y="334" font-size="15">B01</text>
+<path d="M743 145v200" stroke="#858286"/>
+<text x="844" y="168" font-size="13" font-weight="bold">standort_nr</text>
+<text x="844" y="202" font-size="15">10</text>
+<text x="844" y="235" font-size="15">10</text>
+<text x="844" y="268" font-size="15">10</text>
+<text x="844" y="301" font-size="15">10</text>
+<text x="844" y="334" font-size="15">20</text>
+<path d="M836 145v200" stroke="#858286"/>
+<text x="935" y="168" font-size="13" font-weight="bold">standort</text>
+<text x="935" y="202" font-size="15">Ibis</text>
+<text x="935" y="235" font-size="15">Ibis</text>
+<text x="935" y="268" font-size="15">Ibis</text>
+<text x="935" y="301" font-size="15">Ibis</text>
+<text x="935" y="334" font-size="15">Stadtpark</text>
+<path d="M927 145v200" stroke="#858286"/>
+<text x="1033" y="168" font-size="13" font-weight="bold">adresse</text>
+<text x="1033" y="202" font-size="15">Ibisweg 1, Bern</text>
+<text x="1033" y="235" font-size="15">Ibisweg 1, Bern</text>
+<text x="1033" y="268" font-size="15">Ibisweg 1, Bern</text>
+<text x="1033" y="301" font-size="15">Ibisweg 1, Bern</text>
+<text x="1033" y="334" font-size="14">Parkstrasse 1, Bern</text>
+<path d="M1025 145v200" stroke="#858286"/>
+<text x="1171" y="168" font-size="13" font-weight="bold">tagespreis</text>
+<text x="1171" y="202" font-size="15">8.50</text>
+<text x="1171" y="235" font-size="15">8.50</text>
+<text x="1171" y="268" font-size="15">8.50</text>
+<text x="1171" y="301" font-size="15">8.50</text>
+<text x="1171" y="334" font-size="15">11.00</text>
+<path d="M1163 145v200" stroke="#858286"/>
+<path d="M32 180h1209" stroke="#858286"/>
+<path d="M32 213h1209" stroke="#858286"/>
+<path d="M32 246h1209" stroke="#858286"/>
+<path d="M32 279h1209" stroke="#858286"/>
+<path d="M32 312h1209" stroke="#858286"/>
+<rect x="32" y="145" width="1209" height="200" fill="none" stroke="#858286"/>
+<rect x="32" y="358" width="1276" height="79" fill="#fff" rx="7"/>
+<text x="47" y="388" font-size="17" font-weight="bold">Regel</text>
+<text x="153" y="388" font-size="17">Atomare Werte, keine Wiederholungsgruppen.</text>
+<text x="47" y="416" font-size="17" font-weight="bold">Änderung</text>
+<text x="153" y="416" font-size="17">Die Kennzeichenliste entfällt. Funktionale Abhängigkeiten werden dabei noch nicht entfernt.</text>
+</g>
+</svg>

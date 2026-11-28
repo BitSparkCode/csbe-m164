@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="663" viewBox="0 0 860 663" role="img" aria-labelledby="title description">
+  <title id="title">Parkplatz-Reservation: Tabellen und Schlüssel</title>
+  <desc id="description">Die Fremdschlüssel person_id und parkplatz_id in Reservationen zeigen auf die Primärschlüssel von Personen und Parkplätzen. Die dritte Reservation hat noch keinen Parkplatz. Die Regeln für beide Schlüsselarten stehen unter den Tabellen.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0 0L9 4.5L0 9Z" fill="#a52227"/>
+    </marker>
+  </defs>
+  <rect width="860" height="663" rx="12" fill="#f4f4f4"/>
+  <g font-family="Arial, sans-serif" fill="#19171a">
+    <rect x="38" y="33" width="27" height="5" fill="#a52227"/>
+    <text x="38" y="68" font-size="27" font-weight="bold">Parkplatz-Reservation</text>
+    <text x="38" y="129" font-size="19" font-weight="bold">Personen</text>
+    <text x="512" y="129" font-size="19" font-weight="bold">Parkplätze</text>
+    <text x="38" y="317" font-size="19" font-weight="bold">Reservationen</text>
+
+    <g fill="#fff">
+      <rect x="38" y="143" width="310" height="108"/>
+      <rect x="512" y="143" width="310" height="108"/>
+      <rect x="38" y="331" width="784" height="144"/>
+      <rect x="38" y="502" width="784" height="133" rx="6"/>
+    </g>
+    <path d="M38 143H154V179H38ZM512 143H628V179H512ZM38 331H165V367H38Z" fill="#ffdf65"/>
+    <path d="M380 331H586V367H380ZM586 331H822V367H586Z" fill="#fae7e7"/>
+    <g fill="none" stroke="#777579">
+      <path d="M38 143H348V251H38ZM38 179H348M38 215H348M154 143V251"/>
+      <path d="M512 143H822V251H512ZM512 179H822M512 215H822M628 143V251"/>
+      <path d="M38 331H822V475H38ZM38 367H822M38 403H822M38 439H822M165 331V475M380 331V475M586 331V475"/>
+    </g>
+    <g fill="none" stroke="#a52227" stroke-width="2.2" marker-end="url(#arrow)">
+      <path d="M478 331V295H96V252"/>
+      <path d="M701 331V270H570V252"/>
+    </g>
+    <g font-size="16">
+      <g font-weight="bold">
+        <text x="53" y="166">id (PK)</text><text x="168" y="166">name</text>
+        <text x="527" y="166">id (PK)</text><text x="642" y="166">standort</text>
+        <text x="53" y="354">id (PK)</text><text x="181" y="354">datum</text>
+        <text x="396" y="354">person_id (FK)</text><text x="602" y="354">parkplatz_id (FK)</text>
+      </g>
+      <text x="53" y="202">1</text><text x="168" y="202">Maier</text>
+      <text x="53" y="238">2</text><text x="168" y="238">Huber</text>
+      <text x="527" y="202">1</text><text x="642" y="202">Ibis 1</text>
+      <text x="527" y="238">2</text><text x="642" y="238">Strasse 1</text>
+      <text x="53" y="390">1</text><text x="181" y="390">2026-11-28</text><text x="396" y="390">1</text><text x="602" y="390">1</text>
+      <text x="53" y="426">2</text><text x="181" y="426">2026-11-28</text><text x="396" y="426">2</text><text x="602" y="426">2</text>
+      <text x="53" y="462">3</text><text x="181" y="462">2026-11-29</text><text x="396" y="462">1</text><text x="602" y="462">NULL</text>
+      <text x="53" y="527" font-weight="bold">Primärschlüssel (PK)</text>
+      <text x="53" y="551">Eindeutig (UNIQUE), nie NULL (NOT NULL).</text>
+      <text x="53" y="573">Identifiziert genau eine Zeile.</text>
+      <text x="53" y="595">Der Wert soll unverändert bleiben.</text>
+      <text x="405" y="527" font-weight="bold">Fremdschlüssel (FK)</text>
+      <text x="405" y="551">Spalte mit passendem Typ zum PK: hier INT.</text>
+      <text x="405" y="573">Wert muss als PK existieren. NULL nur, wenn erlaubt.</text>
+      <text x="405" y="595">Bei Verweisen: kein Löschen, keine Änderung des PK.</text>
+      <text x="405" y="617">Ausnahme: ON DELETE- oder ON UPDATE-Regel.</text>
+    </g>
+  </g>
+</svg>
