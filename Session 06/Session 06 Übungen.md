@@ -14,14 +14,43 @@ Zeigen Sie Nummer und Exemplare für Karten mit mindestens 20 Exemplaren. Sortie
 
 **Soll:** Karte 13 mit 20 steht vor Karte 11 mit 30.
 
+<details>
+<summary>Lösung</summary>
+
+```sql
+SELECT karten_nr, exemplare FROM infokarten
+WHERE exemplare >= 20 ORDER BY exemplare, karten_nr;
+```
+
+</details>
+
 ### 2. Fehlende Notiz finden
 
 Zeigen Sie die Nummern der Karten ohne Notiz in aufsteigender Reihenfolge.
 
 **Soll:** 11 und 14.
 
+<details>
+<summary>Lösung</summary>
+
+```sql
+SELECT karten_nr FROM infokarten WHERE notiz IS NULL ORDER BY karten_nr;
+```
+
+</details>
+
 ### 3. Exemplare zusammenzählen
 
 Summieren Sie die Exemplare pro Bereich. Zeigen Sie nur Bereiche, für die mindestens zwei Karten gespeichert sind.
 
 **Soll:** Nur Programm bleibt: zwei Karten mit insgesamt 50 Exemplaren.
+
+<details>
+<summary>Lösung</summary>
+
+```sql
+SELECT bereich, COUNT(*) AS karten, SUM(exemplare) AS total
+FROM infokarten GROUP BY bereich HAVING COUNT(*) >= 2;
+```
+
+</details>

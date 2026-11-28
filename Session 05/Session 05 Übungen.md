@@ -14,11 +14,29 @@ Zeigen Sie die Zeilennummern und Preisangaben der Zwischentabelle in Eingangsrei
 
 **Soll:** Drei Textwerte: 3.50, offen, 8.00.
 
+<details>
+<summary>Lösung</summary>
+
+```sql
+SELECT zeile, preis_text FROM rohpreise ORDER BY zeile;
+```
+
+</details>
+
 ### 2. Zeile ohne Preis finden
 
 Zeigen Sie den Materialcode, dessen Preistext «offen» ist.
 
 **Soll:** L20 fehlt ein Zahlenwert.
+
+<details>
+<summary>Lösung</summary>
+
+```sql
+SELECT code FROM rohpreise WHERE preis_text = 'offen';
+```
+
+</details>
 
 ### 3. Gültige Zeilen übernehmen
 
@@ -26,8 +44,27 @@ Kopieren Sie die Zeilen mit den Nummern 1 und 3 mit `INSERT … SELECT` nach `mi
 
 **Soll:** Zwei Zeilen werden übernommen. Die Zielspalte `preis` speichert die Werte als Dezimalzahlen.
 
+<details>
+<summary>Lösung</summary>
+
+```sql
+INSERT INTO mietpreise (code, preis)
+SELECT code, preis_text FROM rohpreise WHERE zeile IN (1, 3);
+```
+
+</details>
+
 ### 4. Exportmenge kontrollieren
 
 Zeigen Sie Code und Preis aus der Zieltabelle in Codereihenfolge. Speichern Sie das Ergebnis bei Bedarf über das Symbol «Export recordset» im Workbench-Ergebnisraster als CSV.
 
 **Soll:** Zwei Datenzeilen: L10 mit 3.50 und L30 mit 8.00.
+
+<details>
+<summary>Lösung</summary>
+
+```sql
+SELECT code, preis FROM mietpreise ORDER BY code;
+```
+
+</details>

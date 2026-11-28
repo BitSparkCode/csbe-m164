@@ -14,14 +14,44 @@ Zeigen Sie Garderobennamen und belegte Fächer zusammen an. Sortieren Sie nach d
 
 **Soll:** Halle: 7. Foyer: 3.
 
+<details>
+<summary>Lösung</summary>
+
+```sql
+SELECT g.name, z.belegte_faecher
+FROM garderoben AS g JOIN zaehlungen AS z ON z.garderobe_nr = g.garderobe_nr
+ORDER BY g.garderobe_nr;
+```
+
+</details>
+
 ### 2. Korrektur eingrenzen
 
 Bei Zählung 92 sind es 5 statt 3 belegte Fächer. Ändern Sie nur diese Zeile und lesen Sie beide Nummern mit ihrem Zählstand.
 
 **Soll:** 91 bleibt bei 7. 92 steht neu bei 5.
 
+<details>
+<summary>Lösung</summary>
+
+```sql
+UPDATE zaehlungen SET belegte_faecher = 5 WHERE zaehlung_nr = 92;
+SELECT zaehlung_nr, belegte_faecher FROM zaehlungen ORDER BY zaehlung_nr;
+```
+
+</details>
+
 ### 3. Gesamtzahl ausgeben
 
 Summieren Sie die belegten Fächer über beide Zählungen.
 
 **Soll:** 12 belegte Fächer.
+
+<details>
+<summary>Lösung</summary>
+
+```sql
+SELECT SUM(belegte_faecher) AS total FROM zaehlungen;
+```
+
+</details>

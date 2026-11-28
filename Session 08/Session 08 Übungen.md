@@ -14,11 +14,35 @@ Legen Sie `pakete` mit Textschlüssel `paketcode` (drei Zeichen), Pflicht-Fremds
 
 **Soll:** Jedes Paket verweist auf einen vorhandenen Packort.
 
+<details>
+<summary>Lösung</summary>
+
+```sql
+CREATE TABLE pakete (
+    paketcode CHAR(3) PRIMARY KEY,
+    ort_nr INT NOT NULL,
+    status VARCHAR(12) NOT NULL,
+    FOREIGN KEY (ort_nr) REFERENCES packorte (ort_nr)
+) ENGINE = InnoDB;
+```
+
+</details>
+
 ### 2. Zwei Pakete laden
 
 Erfassen Sie P10 für Ort 1 und P20 für Ort 2 mit dem Status «offen» in einer Anweisung.
 
 **Soll:** Zwei Zeilen werden eingefügt.
+
+<details>
+<summary>Lösung</summary>
+
+```sql
+INSERT INTO pakete (paketcode, ort_nr, status) VALUES
+    ('P10', 1, 'offen'), ('P20', 2, 'offen');
+```
+
+</details>
 
 ### 3. Ein Paket umlagern
 
@@ -26,8 +50,28 @@ Erfassen Sie P10 für Ort 1 und P20 für Ort 2 mit dem Status «offen» in einer
 
 **Soll:** Eine Zeile wird geändert.
 
+<details>
+<summary>Lösung</summary>
+
+```sql
+UPDATE pakete SET ort_nr = 2 WHERE paketcode = 'P10';
+```
+
+</details>
+
 ### 4. Zuordnungen kontrollieren
 
 Zeigen Sie Paketcode, Packort und Status beider Pakete in Codereihenfolge.
 
 **Soll:** P10 und P20 stehen beide bei der Rampe und bleiben offen.
+
+<details>
+<summary>Lösung</summary>
+
+```sql
+SELECT p.paketcode, o.name, p.status
+FROM pakete AS p JOIN packorte AS o ON o.ort_nr = p.ort_nr
+ORDER BY p.paketcode;
+```
+
+</details>
